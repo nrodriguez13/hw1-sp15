@@ -4,7 +4,8 @@ class StaticPagesController < ApplicationController
   end
 
   def about
-    @age = 1
+  	@major = "Cognitive Science"
+    @age = 22
   end
 
 end
